@@ -16,7 +16,7 @@ const getSum = () => {
   const newRow = document.createElement("tr");
   const newCell = document.createElement("td");
 
-  newCell.id = "ans";        // VERY IMPORTANT for Cypress
+  newCell.id = "ans";
   newCell.colSpan = 2;
   newCell.textContent = total;
 
